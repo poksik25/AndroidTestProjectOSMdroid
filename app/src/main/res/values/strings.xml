@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidTestProjectOSMdroid</string>
+    <string name="geo">GEO</string>
 </resources>

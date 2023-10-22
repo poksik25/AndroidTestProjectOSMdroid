@@ -41,7 +41,12 @@ android {
 
 dependencies {
     //Map
+    // Зависимость от библиотеки osmbonuspack
+    implementation("com.github.MKergall:osmbonuspack:6.9.0")
     implementation("org.osmdroid:osmdroid-android:6.1.14")
+    implementation("org.apache.commons:commons-lang3:3.8.1")
+    implementation("com.google.code.gson:gson:2.9.0")
+    implementation("com.squareup.okhttp3:okhttp:4.11.0")
     //API
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
@@ -63,6 +68,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.4")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.4")
 
+    implementation("androidx.preference:preference-ktx:1.2.1")
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
