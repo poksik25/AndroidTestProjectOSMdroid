@@ -1,10 +1,12 @@
-package com.poklad.androidtestprojectosmdroid
+package com.poklad.androidtestprojectosmdroid.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
+import com.poklad.androidtestprojectosmdroid.R
 import com.poklad.androidtestprojectosmdroid.databinding.ActivityMainBinding
+import com.poklad.androidtestprojectosmdroid.presentation.base.BaseActivity
 
 class MainActivity : BaseActivity<ActivityMainBinding>() {
     override fun inflateViewBinding(inflater: LayoutInflater): ActivityMainBinding {

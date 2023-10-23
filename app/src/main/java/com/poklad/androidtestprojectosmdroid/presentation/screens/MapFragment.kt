@@ -1,4 +1,4 @@
-package com.poklad.androidtestprojectosmdroid
+package com.poklad.androidtestprojectosmdroid.presentation.screens
 
 import android.os.Bundle
 import android.preference.PreferenceManager
@@ -8,6 +8,8 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
+import com.poklad.androidtestprojectosmdroid.R
+import com.poklad.androidtestprojectosmdroid.data.PointModel
 import com.poklad.androidtestprojectosmdroid.databinding.FragmentMapBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -58,11 +60,7 @@ class MapFragment : Fragment(R.layout.fragment_map) {
 
     private fun initPointList() {
         pointList = listOf(
-            PointModel(1, "Історичний музей", GeoPoint(49.9918804, 36.2316152)),
-            PointModel(2, "New Mail №6", GeoPoint(50.0078178, 36.3034023)),
-            PointModel(3, "Multiplex", GeoPoint(49.9899739, 36.2351798)),
-            PointModel(4, "Nikas Restaurant", GeoPoint(49.9929846, 36.229371)),
-            PointModel(5, "Derzhprom", START_POINT),
+
         )
     }
 

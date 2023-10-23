@@ -1,4 +1,4 @@
-package com.poklad.androidtestprojectosmdroid
+package com.poklad.androidtestprojectosmdroid.data
 
 import org.osmdroid.util.GeoPoint
 

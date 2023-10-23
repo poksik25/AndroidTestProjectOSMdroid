@@ -1,4 +1,4 @@
-package com.poklad.androidtestprojectosmdroid
+package com.poklad.androidtestprojectosmdroid.presentation.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
